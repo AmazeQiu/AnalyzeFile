@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <hdfs_config>
+        <ip>127.0.0.1</ip>
+        <port>9000</port>
+    </hdfs_config>
+    <RocketMQ_config>127.0.0.1:9876</RocketMQ_config>
+    <fileProcessClass>
+        <txt>com.project.XXcloud.FileProcess.TxtFileProcess</txt>
+        <doc>com.project.XXcloud.FileProcess.DocFileProcess</doc>
+        <png>com.project.XXcloud.FileProcess.ImageFileProcess</png>
+        <jpg>com.project.XXcloud.FileProcess.ImageFileProcess</jpg>
+    </fileProcessClass>
+    <sensiveWordsDir>C:\Users\Amaze\Desktop\testFiles\</sensiveWordsDir>
+    <replacePic>C:\Users\Amaze\Desktop\testFiles\test3.png</replacePic>
+    <temDir>C:\Users\Amaze\Desktop\testFiles\tmp\</temDir>
+</config>
